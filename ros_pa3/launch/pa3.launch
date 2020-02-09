@@ -1,0 +1,10 @@
+<launch>
+
+  
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find ros_pa3)/include/config/config.rviz" />
+  
+
+  <node type="sensor_sub.py" name="sensor_sub" pkg="ros_pa3" output="screen" >
+  </node>
+ 
+</launch>
